@@ -6,7 +6,7 @@ Este é o repositório para o projeto de API de uma Escola feito em Django REST 
 
 ## Configuração do Ambiente Virtual (venv)
 
-Para garantir um ambiente de desenvolvimento limpo e isolado, é recomendável usar um ambiente virtual do Python. Siga as etapas abaixo para configurar e ativar o ambiente virtual:
+Para garantir um ambiente de desenvolvimento isolado, é recomendável usar um ambiente virtual do Python. Siga as etapas abaixo para configurar e ativar o ambiente virtual:
 
 1. Abra o terminal e navegue até o diretório raiz do projeto.
 2. Crie um novo ambiente virtual dentro do diretório do projeto:
@@ -27,11 +27,9 @@ Para garantir um ambiente de desenvolvimento limpo e isolado, é recomendável u
     source venv/bin/activate
     ```
 
-4. Agora você está no ambiente virtual, onde pode instalar dependências necessárias para o funcionamento do projeto.
-
 ## Instalando Dependências
 
-Você pode instalar as dependências necessárias para o projeto. Certifique-se de que o ambiente virtual está ativado antes de prosseguir. Execute o seguinte comando:
+Certifique-se de que o ambiente virtual está ativado antes de prosseguir. Execute o seguinte comando:
 
 ```
 pip install -r requirements.txt
@@ -67,4 +65,3 @@ Para executar, basta abrir o terminal no diretório de sua aplicação e digitar
 python popular_banco_cursos.py
 python popular_banco_estudantes.py
 ```
-E prontinho! Cursos e Estudantes foram criados :) Crie uma matrícula no API Root ou ThunderClient para testar a aplicação!
